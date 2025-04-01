@@ -38,8 +38,7 @@ export const CourseDialog = (props: CourseProps) => {
       <DialogTrigger asChild>
         <Button
           variant="secondary"
-          size={"xl"}
-          className="hover:bg-secondary/40 border-secondary bg-ghost inline-flex w-full cursor-pointer items-center justify-start gap-4 rounded-md border p-1 pl-2 shadow-sm transition-colors duration-300 ease-in-out hover:translate-y-[-1px] hover:scale-[1.01] hover:shadow-lg"
+          className="p-7 hover:bg-secondary/40 border-secondary bg-ghost inline-flex w-full cursor-pointer items-center justify-start gap-4 rounded-md border pl-2 shadow-sm transition-colors duration-300 ease-in-out hover:translate-y-[-1px] hover:scale-[1.01] hover:shadow-lg"
           asChild
           onClick={() => setOpen(true)}
           role="div"
