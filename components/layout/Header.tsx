@@ -16,7 +16,7 @@ export function Header() {
       <div className="flex h-16 flex-row items-center max-sm:flex-col max-sm:gap-4 sm:justify-between">
         <h1 className="flex items-baseline justify-center gap-2 ">
           <Typography variant="h3" as={Link} href="/">
-            Alexandre Compin
+            alexandrecompin.vercel.app
           </Typography>
         </h1>
         <div className="flex flex-1 items-center justify-end space-x-4">
