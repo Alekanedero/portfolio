@@ -14,7 +14,7 @@ export const Skill = () => {
       <h2 className="scroll-m-20 pb-2 md:text-3xl text-xl">
         I love working on...
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
         <LogoDev
           src={logoNext}
           alt="Next Icon"

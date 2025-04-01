@@ -60,7 +60,7 @@ export const CourseDialog = (props: CourseProps) => {
           </div>
         </Button>
       </DialogTrigger>
-      <DialogContent className="border-secondary border transition-transform duration-300 ease-in-out sm:max-w-[800px]">
+      <DialogContent className="border-secondary border transition-transform duration-300 ease-in-out sm:max-w-[800px] overflow-y-auto max-h-[80vh]">
         <div className="p-4">
           <DialogTitle>
             <p className="text-lg font-semibold">{props.title}</p>
@@ -92,3 +92,35 @@ export const CourseDialog = (props: CourseProps) => {
     </Dialog>
   );
 };
+
+{
+  /* <DialogContent className="border-secondary border transition-transform duration-300 ease-in-out sm:max-w-[800px]">
+        <div className="p-4">
+          <DialogTitle>
+            <p className="text-lg font-semibold">{props.title}</p>
+          </DialogTitle>
+          <p className="text-muted-foreground mt-8 ">{props.text}</p>
+          <Link
+            href={props.urlSchool}
+            className={`${buttonVariants({
+              size: "sm",
+              variant: "primary",
+            })} mt-8`}
+          >
+            Visit my school
+          </Link>
+          <div className="mt-20 flex gap-2 flex-col items-center justify-center">
+            <p className="">Certificate</p>
+            <Image
+              src={props.certificat.src}
+              alt={props.certificat.alt}
+              width={props.certificat.width}
+              height={props.certificat.height}
+              className="object-cover rounded-md shadow-lg hover:scale-150 transition-transform duration-300 ease-in-out"
+              quality={100}
+              priority
+            />
+          </div>
+        </div>
+      </DialogContent> */
+}
