@@ -26,11 +26,7 @@ export const metadata: Metadata = {
   description: SiteConfig.description,
 };
 
-export default function RootLayout({
-  children,
-}: PropsWithChildren<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body
