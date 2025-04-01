@@ -27,11 +27,9 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  // modal,
   children,
 }: PropsWithChildren<{
   children: React.ReactNode;
-  modal?: React.ReactNode;
 }>) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
