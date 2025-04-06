@@ -5,7 +5,7 @@ export const SIDE_PROJECTS = [
     Logo: <Code size={23} />,
     title: "Youcode",
     description: "A platform for developers to learn coding.",
-    url: "https://github.com/Alekanedero",
+    url: "https://youcode-compinalexandre.vercel.app/",
   },
   {
     Logo: <House size={23} />,
@@ -30,5 +30,5 @@ export const SIDE_PROJECTS = [
     title: "Kasa",
     description: "Description of project 2",
     url: "https://kasa.com",
-  } 
+  },
 ];
