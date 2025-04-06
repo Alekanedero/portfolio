@@ -1,4 +1,4 @@
-import { Code, House, PawPrint, User, Utensils } from "lucide-react";
+import { Code, House, PawPrint, Utensils } from "lucide-react";
 
 export const SIDE_PROJECTS = [
   {
@@ -24,11 +24,5 @@ export const SIDE_PROJECTS = [
     title: "La panthère",
     description: "Static website for a communications agency",
     url: "https://alekanedero.github.io/La-Panthere/",
-  },
-  {
-    Logo: <User size={23} />,
-    title: "Kasa",
-    description: "Description of project 2",
-    url: "https://kasa.com",
   },
 ];
