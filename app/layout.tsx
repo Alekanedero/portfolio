@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Providers } from "./Providers";
 import { PropsWithChildren } from "react";
 import { SiteConfig } from "@/lib/site-config";
+import Head from "next/head";
 
 const anekTelugu = Anek_Telugu({
   variable: "--font-caption",
@@ -29,6 +30,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
+      <Head>
+        <link rel="icon" href="/logo/logoNext.svg" />
+      </Head>
       <body
         className={cn(
           geistSans.variable,
