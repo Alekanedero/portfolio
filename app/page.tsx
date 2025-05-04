@@ -25,6 +25,7 @@ export default function Home() {
         </div>
       </Layout>
       <Footer />
+      <h1>Test</h1>
     </>
   );
 }
