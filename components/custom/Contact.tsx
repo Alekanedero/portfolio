@@ -17,7 +17,7 @@ export const Contact = () => {
         <ContactCard
           image="/images/alex.png"
           logo="/logo/whatsappcontact.svg"
-          name="+33 6 18 25 07 58"
+          name="+41 7 223 47 61"
           description="Contact me on WhatsApp."
           url="https://wa.me/33618250758"
         />
@@ -31,7 +31,7 @@ export const Contact = () => {
         <ContactCard
           image="/images/alex.png"
           logo="/logo/phone.svg"
-          name="06 18 25 07 58"
+          name="07 82 23 47 61"
           description="Contact me on my phone."
           url=""
         />
